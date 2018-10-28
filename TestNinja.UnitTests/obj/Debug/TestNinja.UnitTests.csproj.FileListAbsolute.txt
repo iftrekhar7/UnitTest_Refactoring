@@ -27,3 +27,12 @@ D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cecil.dll
 D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.pdb
 D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.dll
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\study\sourceCode\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml
