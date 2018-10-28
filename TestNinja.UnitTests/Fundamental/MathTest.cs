@@ -46,5 +46,35 @@ namespace TestNinja.UnitTests.Fundamental
 
             Assert.That(max, Is.EqualTo(10));
         }
+
+        [Test]
+        public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumberUpToTheLimit()
+        {
+            var numbers = _math.GetOddNumbers(5);
+
+            Assert.That(numbers, Is.Not.Empty);
+            Assert.That(numbers.Count(), Is.EqualTo(3));
+            Assert.That(numbers, Does.Contain(1));
+            Assert.That(numbers, Is.EquivalentTo(new[] {1, 3, 5}));
+            Assert.That(numbers, Is.Ordered);
+            Assert.That(numbers, Is.Unique);
+        }
+
+        [Test]
+        public void GetOddNumbers_LimitIsLessThanZero_ReturnNull()
+        {
+            var numbers = _math.GetOddNumbers(-5);
+
+            Assert.That(numbers, Is.Empty);
+        }
+
+        [Test]
+        public void GetOddNumbers_LimitIsEqualToZero_ReturnNull()
+        {
+            var numbers = _math.GetOddNumbers(0);
+
+            Assert.That(numbers, Is.Empty);
+        }
+
     }
 }
